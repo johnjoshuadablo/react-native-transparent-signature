@@ -20,13 +20,13 @@ User would sign on the app and when you press the save button it returns the bas
 First you need to install react-native-signature-capture:
 
 ```sh
-npm install react-native-signature-capture --save
+npm install react-native-transparent-signature-capture --save
 ```
 
 Second you need to link react-native-signature-capture:
 
 ```sh
-react-native link react-native-signature-capture
+react-native link react-native-transparent-signature-capture
 ```
 
 Use above `react-native link` command to automatically complete the installation, or link manually like so:
