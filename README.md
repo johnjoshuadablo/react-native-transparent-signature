@@ -4,6 +4,7 @@
 React Native library for capturing signature with transaparent background for android.
 
 original repo: https://github.com/RepairShopr/react-native-signature-capture
+
 pull request by devapro: https://github.com/RepairShopr/react-native-signature-capture/pull/136 
 
 User would sign on the app and when you press the save button it returns the base64 encoded png
