@@ -1,11 +1,11 @@
-# react-native-signature-capture
+# react-native-transparent-signature-capture
 
 ## About this
 React Native library for capturing signature with transaparent background for android.
 
-original repo: https://github.com/RepairShopr/react-native-signature-capture
+original repo: https://github.com/RepairShopr/react-native-transparent-signature-capture
 
-pull request by devapro: https://github.com/RepairShopr/react-native-signature-capture/pull/136 
+pull request by devapro: https://github.com/RepairShopr/react-native-transparent-signature-capture/pull/136 
 
 User would sign on the app and when you press the save button it returns the base64 encoded png
 
@@ -17,13 +17,13 @@ User would sign on the app and when you press the save button it returns the bas
 
 ## Install
 
-First you need to install react-native-signature-capture:
+First you need to install react-native-transparent-signature-capture:
 
 ```sh
 npm install react-native-transparent-signature-capture --save
 ```
 
-Second you need to link react-native-signature-capture:
+Second you need to link react-native-transparent-signature-capture:
 
 ```sh
 react-native link react-native-transparent-signature-capture
@@ -34,7 +34,7 @@ Use above `react-native link` command to automatically complete the installation
 ### iOS
 
 1. In the XCode's "Project navigator", right click on your project's Libraries folder ➜ Add Files to <...>
-2. Go to node_modules ➜ react-native-signature-capture ➜ ios ➜ select RSSignatureCapture.xcodeproj
+2. Go to node_modules ➜ react-native-transparent-signature-capture ➜ ios ➜ select RSSignatureCapture.xcodeproj
 3. Add libRSSignatureCapture.a to Build Phases -> Link Binary With Libraries
 4. Compile and have fun
 
@@ -46,7 +46,7 @@ Add these lines in your file: android/settings.gradle
 ...
 
 include ':reactnativesignaturecapture',':app'
-project(':reactnativesignaturecapture').projectDir = new File(settingsDir, '../node_modules/react-native-signature-capture/android')
+project(':reactnativesignaturecapture').projectDir = new File(settingsDir, '../node_modules/react-native-transparent-signature-capture/android')
 ```
 
 Add line in your file: android/app/build.gradle
@@ -90,7 +90,7 @@ Then you can use SignatureCapture component in your react-native's App, like thi
 ```javascript
 ...
 import React, {Component} from 'react';
-import SignatureCapture from 'react-native-signature-capture';
+import SignatureCapture from 'react-native-transparent-signature-capture';
 
 class CustomComponent extends Component {
 
@@ -151,7 +151,7 @@ var {
     View, TouchableHighlight
 } = ReactNative;
 
-import SignatureCapture from 'react-native-signature-capture';
+import SignatureCapture from 'react-native-transparent-signature-capture';
 
 class RNSignatureExample extends Component {
     render() {
@@ -223,7 +223,7 @@ AppRegistry.registerComponent('RNSignatureExample', () => RNSignatureExample);
 -------------
 
 Please checkout the example folder (iOS/Android):
-https://github.com/RepairShopr/react-native-signature-capture/tree/master/Example
+https://github.com/RepairShopr/react-native-transparent-signature-capture/tree/master/Example
 
 Library used:
 

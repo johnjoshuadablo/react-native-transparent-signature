@@ -7,7 +7,7 @@ The Example is a sample app of SignatureCapture.
 Before running the app, make sure you run:
 
 ```sh
-git clone https://github.com/RepairShopr/react-native-signature-capture.git
+git clone https://github.com/RepairShopr/react-native-transparent-signature-capture.git
 cd Example
 npm install
 ```
