@@ -17,7 +17,7 @@ class SignatureCapture extends React.Component {
         super();
         this.onChange = this.onChange.bind(this);
         this.subscriptions = [];
-    }
+    } 
 
     onChange(event) {
 
