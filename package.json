@@ -1,56 +1,31 @@
 {
-  "_from": "github:devapro/react-native-signature-capture#158f583b9bb500414166e0f33fd5b4b8de5d54ba",
-  "_id": "react-native-signature-capture@0.4.9",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/react-native-signature-capture",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "devapro/react-native-signature-capture#158f583b9bb500414166e0f33fd5b4b8de5d54ba",
-    "rawSpec": "devapro/react-native-signature-capture#158f583b9bb500414166e0f33fd5b4b8de5d54ba",
-    "saveSpec": "github:devapro/react-native-signature-capture#158f583b9bb500414166e0f33fd5b4b8de5d54ba",
-    "fetchSpec": null,
-    "gitCommittish": "158f583b9bb500414166e0f33fd5b4b8de5d54ba"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "github:devapro/react-native-signature-capture#158f583b9bb500414166e0f33fd5b4b8de5d54ba",
-  "_spec": "devapro/react-native-signature-capture#158f583b9bb500414166e0f33fd5b4b8de5d54ba",
-  "_where": "C:\\Users\\Joshu\\Desktop\\Projects\\ppd-for-doctors",
-  "author": {
-    "name": "RepairShopr"
-  },
-  "bugs": {
-    "url": "https://github.com/RepairShopr/react-native-signature-capture/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "prop-types": "^15.5.10"
-  },
-  "deprecated": false,
+  "name": "react-native-transparent-signature-capture",
+  "version": "0.0.1",
   "description": "Lets users sign their signatures",
-  "homepage": "https://github.com/RepairShopr/react-native-signature-capture#readme",
+  "main": "SignatureCapture.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sislovesmedotcom/react-native-transparent-signature.git"
+  },
   "keywords": [
     "react-component",
     "react-native",
     "ios",
     "signature"
   ],
-  "license": "ISC",
-  "main": "SignatureCapture.js",
-  "name": "react-native-signature-capture",
   "peerDependencies": {
     "react-native": ">=0.47"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RepairShopr/react-native-signature-capture.git"
+  "author": "JJSD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sislovesmedotcom/react-native-transparent-signature/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.4.9"
+  "homepage": "https://github.com/sislovesmedotcom/react-native-transparent-signature/blob/master/README.md",
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  }
 }
